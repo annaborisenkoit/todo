@@ -37,6 +37,8 @@ h2 {
   opacity: 0.5;
   text-decoration: line-through;
   background-color: #6532f8;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .header__wrap {
