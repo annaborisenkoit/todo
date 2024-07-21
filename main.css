@@ -109,10 +109,10 @@ h2 {
   overflow-y: auto;
 }
 
-.task {
+li {
   display: flex;
   min-height: 71px;
-  padding: 35px 0px;
+  padding: 20px 20px;
   font-size: 20px;
   line-height: 23px;
   align-items: center;
