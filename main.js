@@ -13,6 +13,10 @@ addButton.addEventListener('click', function() {
     task.textContent = taskText; 
     //добавляем созданный элемент в тег ул
     taskList.append(task);
+    //очищаем инпут
+    taskInput.value = '';
+    //возвращаем курсор в инпут
+    taskInput.focus();
 });
 
 taskList.addEventListener('click', function(evt) {
